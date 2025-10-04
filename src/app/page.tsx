@@ -1,4 +1,4 @@
-import { Music } from "@/lib/assets/assets";
+import { Books, Music } from "@/lib/assets/assets";
 
 export default function Home() {
   return (
@@ -7,14 +7,26 @@ export default function Home() {
         <div className="font-black">Kallol</div>
         <div className="font-thin">{`'s playground`}</div>
       </div>
-      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2"></div>
-      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2"></div>
+      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2 flex flex-col items-center justify-between h-full pt-4 pb-4">
+        <div className="font-black text-5xl">Work</div>
+        
+      </div>
+      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2 flex flex-col items-center justify-between h-full pt-4 pb-4">
+        <div className="font-black text-5xl">Play</div>
+        
+      </div>
       <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2 flex flex-col items-center justify-between h-full pt-4 pb-4">
         <div className="font-black text-5xl">Music</div>
         <Music />
       </div>
-      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2"></div>
-      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2"></div>
+      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2 flex flex-col items-center justify-between h-full pt-4 pb-4">
+        <div className="font-black text-5xl">Books</div>
+        <Books />
+      </div>
+      <div className="border-4 border-black rounded-lg col-span-1 row-span-4 2xl:row-span-2 flex flex-col items-center justify-between h-full pt-4 pb-4">
+        <div className="font-black text-5xl">Others</div>
+        
+      </div>
     </div>
   );
 }
