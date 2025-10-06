@@ -1,4 +1,4 @@
-import { BooksTitle, BooksDefault, BooksActive, Music } from "@/lib/assets/assets";
+import { BooksTitle, BooksDefault, BooksActive, MusicDefault, MusicActive } from "@/lib/assets/assets";
 import CardHome from "@/components/ui/cardHome";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
         <div className="font-thin">{`'s playground`}</div>
       </div>
       <CardHome title="Work" />
-      <CardHome title="Music" />
+      <CardHome title="Music" baseImg={<MusicDefault />} activeImg={<MusicActive />} />
       <CardHome title="Books" baseImg={<BooksDefault />} activeImg={<BooksActive />}/>
       <CardHome title="Design" />
       <CardHome title="Others" />
