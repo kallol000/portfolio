@@ -18,7 +18,7 @@ export default function CardHome({title, baseImg, activeImg}: cardProps) {
     
     return (
         <div
-            className={`min-h-[300px] max-h-[300px] shadow-xl border-1 bg-slate-100 rounded-lg col-span-1 flex flex-col items-center h-full pt-4 pb-4 transition-all duration-500 cursor-pointer relative overflow-hidden `}
+            className={`min-h-[250px] max-h-[250px] md:min-h-[300px] shadow-xl border-1 bg-slate-100 rounded-lg col-span-1 flex flex-col items-center h-full pt-4 pb-4 transition-all duration-500 cursor-pointer relative overflow-hidden `}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             >
