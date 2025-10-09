@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${archivo.className} ${archivo.className} antialiased bg-[url('/background.svg')] bg-cover`}
+        className={`${archivo.className} ${archivo.className} antialiased  bg-cover`}
       >
         {children}
       </body>
