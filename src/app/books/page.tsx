@@ -34,16 +34,28 @@ const books: book[] = [
         author: "Kazuo Ishiguro",
         description: "A tale of hope that eventually tragic story of love and loss. Narrated in first person by Kathy, a human clone and her life through the years. The story keeps its readers guessing until the very end and the ending is a devastating reflection on ethics, innovation and humanity.",
     },
+    {
+        title: "Project Hail Mary",
+        cover: '/project-hail-mary.jpg',
+        author: "Andy Weir",
+        description: "A lone astronaut wakes up in the middle of space as humanity's last hope to save earth. It's a thriling adventure as he tries to remember parts of his mission with his alien friend, Rocky. Now a blockbuster, this is the most fun I have ever had reading a science fiction novel. ",
+    },
+    {
+        title: "1984",
+        cover: '/1984.png',
+        author: "George Orwell",
+        description: "A novel set in future that is starting to feel more and more real. War is peace. Freedom is slavery. Ignorance is strength.",
+    }
 ]
 
 export default function WorksPage() {
     return (
-        <section className="space-y-8 py-8">
+        <section className="space-y-8 py-8 ">
             <div className="space-y-3">
                 <p className="text-sm uppercase tracking-[0.35em] text-slate-500">Books</p>
                 <h1 className="text-3xl font-semibold sm:text-4xl">Curated reads</h1>
                 <p className="max-w-2xl text-sm text-slate-600 sm:text-base">
-                    Browse a selection of favorite books with responsive carousel layout for mobile, tablet, and desktop screens.
+                    My digital bookshelf.
                 </p>
             </div>
 
@@ -54,7 +66,7 @@ export default function WorksPage() {
                 <CarouselPrevious className="hidden md:flex" />
                 <CarouselNext className="hidden md:flex" />
 
-                <CarouselContent className="flex gap-4">
+                <CarouselContent className="flex gap-4 px-4">
                     {books.map((book) => (
                         <CarouselItem
                             key={book.title}
