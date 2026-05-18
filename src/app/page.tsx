@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <Button variant={"outline"} className="text-xl cursor-pointer">About me</Button>
       </div>
-      <Link href={"/works"} >
+      <Link href={"/work"} >
         <CardHome title="Work" baseImg={<WorkDefault />} activeImg={<WorkActive />}/>
       </Link>
       <Link href={"/music"} >
