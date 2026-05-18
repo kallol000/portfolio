@@ -66,7 +66,7 @@ export default function WorksPage() {
                 <CarouselPrevious className="hidden md:flex" />
                 <CarouselNext className="hidden md:flex" />
 
-                <CarouselContent className="flex gap-4 px-4">
+                <CarouselContent className="flex gap-4">
                     {books.map((book) => (
                         <CarouselItem
                             key={book.title}
