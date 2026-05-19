@@ -8,9 +8,9 @@ export default function Home() {
   return (
     // <div className="pt-8 max-w-xs grid grid-cols-2 m-auto gap-2 md:pt-16 md:grid-cols-2 md:max-w-2xl lg:max-w-4xl lg:grid-cols-3 2xl:max-w-7xl 2xl:grid-cols-5 ">
     <div className="pt-8 max-w-xs  m-auto gap-2 flex flex-col  md:max-w-2xl lg:max-w-4xl 2xl:max-w-7xl ">
-      <div className="pb-16 text-4xl flex items-start justify-between col-span-2 md:col-span-2 md:text-5xl lg:col-span-3 lg:text-5xl 2xl:col-span-5 2xl:text-6xl ">
+      <div className="pb-16 text-3xl font-semibold sm:text-4xl flex items-start justify-between col-span-2 md:col-span-2  lg:col-span-3  2xl:col-span-5  ">
         <div className="flex flex-col  md:flex-row">
-          <div className="font-black">{`Kallol's`} &nbsp;</div>
+          <div className="font-semibold">{`Kallol's`} &nbsp;</div>
           <div className="font-thin">{`playground`}</div>
         </div>
         <Button variant={"outline"} className="text-xl cursor-pointer">About me</Button>

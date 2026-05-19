@@ -3,51 +3,8 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 import Image from "next/image"
 import { book } from "@/lib/types"
-const books: book[] = [
-    {
-        title: "Pachinko",
-        cover: '/pachinko.jpg',
-        author: "Min Jin Lee",
-        description: "A family's journey through three generations in Korea and Japan exploring themes of love, identity and resilience. It's tragic  and heartwarming and an uninterruted page-turner.",
-    },
-    {
-        title: "Book Lovers",
-        cover: '/book-lovers.jpg',
-        author: "Emily Henry",
-        description: "A delightful romantic novel that's witty from start till the end. I wanted to fall in love after reading this book.",
-    },
-    {
-        title: "Homegoing",
-        cover: '/homegoing.jpg',
-        author: "Yaa Gyasi",
-        description: "Absoultely devastating parellal saga of two half sisters and their descendants through slavery and colonialism in Ghana and America. ",
-    },
-    {
-        title: "Underground Railroad",
-        cover: '/underground-railroad.jpg',
-        author: "Colson Whitehead",
-        description: "Cora leaves a trail of blood wherever she goes. An epic adventure of escape from her owner through the underground railroad, stemming from the idea that her mother also escaped successfully.",
-    },
-    {
-        title: "Never Let me Go",
-        cover: '/never-let me-go.jpg',
-        author: "Kazuo Ishiguro",
-        description: "A tale of hope that eventually tragic story of love and loss. Narrated in first person by Kathy, a human clone and her life through the years. The story keeps its readers guessing until the very end and the ending is a devastating reflection on ethics, innovation and humanity.",
-    },
-    {
-        title: "Project Hail Mary",
-        cover: '/project-hail-mary.jpg',
-        author: "Andy Weir",
-        description: "A lone astronaut wakes up in the middle of space as humanity's last hope to save earth. It's a thriling adventure as he tries to remember parts of his mission with his alien friend, Rocky. Now a blockbuster, this is the most fun I have ever had reading a science fiction novel. ",
-    },
-    {
-        title: "1984",
-        cover: '/1984.png',
-        author: "George Orwell",
-        description: "A novel set in future that is starting to feel more and more real. War is peace. Freedom is slavery. Ignorance is strength.",
-    }
-]
-
+import books from "@/data/books.json"
+// const books: book[] = 
 export default function WorksPage() {
     return (
         <section className="space-y-8 py-8 ">

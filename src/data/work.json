@@ -1,0 +1,20 @@
+[
+    {
+        "slug": "moneytrail",
+        "type": "application",
+        "name": "Moneytrail",
+        "description": "A personal finance management app built with Next.js and Supabase. It allows users to track their expenses, and visualize their spending habits through interactive charts and graphs.",
+        "link": "https://money-trail-seven.vercel.app/",
+        "github": "",
+        "techStack": ["Next.js", "Supabase", "Tailwind CSS"]
+    },
+    {
+        "slug": "infinite-tic-tac-toe",
+        "type": "application",
+        "name": "Infinite tic-tac-toe",
+        "description": "A fun twist on the classic tic-tac-toe game with an infinite board.",
+        "link": "",
+        "github": "https://github.com/yourusername/infinite-tic-tac-toe",
+        "techStack": ["React", "TypeScript", "CSS"]
+    }
+]

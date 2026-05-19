@@ -23,7 +23,7 @@ export default function CardHome({title, baseImg, activeImg}: cardProps) {
             onMouseLeave={() => setIsHovered(false)}
             >
             {/* Title */}
-            <p className={`font-extrabold text-4xl  z-10 transition-all duration-500  ${isHovered ? `text-shadow-lg` : null } `}>{title}</p>
+            <p className={`font-semibold text-4xl  z-10 transition-all duration-500  ${isHovered ? `text-shadow-lg` : null } `}>{title}</p>
 
             {/* Image container (ensures both SVGs overlap and animate) */}
             <div className="relative flex items-center w-full h-full">
