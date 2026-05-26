@@ -4,8 +4,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Image from "next/image"
 import { book } from "@/lib/types"
 import books from "@/data/books.json"
-// const books: book[] = 
-export default function WorksPage() {
+export default function BooksPage() {
     return (
         <section className="space-y-8 py-8 ">
             <div className="space-y-3">
